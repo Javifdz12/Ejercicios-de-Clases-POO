@@ -11,7 +11,7 @@ a = A
 y = a.z
 print(y(a))
 aa = a()
-print(aa is not a())
+print(aa is a())
 z = aa.y
 print(z(()))
 print(a().y((a,)))
